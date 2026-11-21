@@ -3,5 +3,5 @@
 	url = https://github.com/sailfishos-open/kernel-adaptation-simplified.git
 [submodule "linux"]
 	path = linux
-	url = https://gitlab.com/ubports/porting/community-ports/android12/generic/kernel-android-common.git
-	branch = android14-6.1-halium
+	url = https://github.com/nyxianglyph/android_kernel_xiaomi_degas.git
+	branch = halium-6.1.157

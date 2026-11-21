@@ -7,7 +7,7 @@ on:
 
 env:
   PACKAGE: kernel-adaptation-halium
-  DEVICE: ansuz
+  DEVICE: degas
 
 jobs:
   build-and-push:

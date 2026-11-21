@@ -31,7 +31,7 @@ device and survives base-ramdisk bumps. A normal guest boot (valid `datapart=`
 that is not the host userdata) and a standalone boot (no `systempart=`) are
 unaffected.
 
-- `scripts/halium` — copy of the base halium script with the GKI bits ansuz
+- `scripts/halium` — copy of the base halium script with the GKI bits the MediaTek GKI devices (Volla ansuz, Xiaomi degas)
   needs before the rootfs can be found:
     - loads the vendor_boot modules listed in `/lib/modules/modules.load`
       (UFS, mtu3, dm, ...), the base script never does,
