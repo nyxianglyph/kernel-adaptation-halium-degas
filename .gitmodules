@@ -1,6 +1,7 @@
 [submodule "kernel-adaptation-simplified"]
 	path = kernel-adaptation-simplified
-	url = https://github.com/sailfishos-open/kernel-adaptation-simplified.git
+	url = https://github.com/nyxianglyph/kernel-adaptation-simplified.git
+	branch = degas
 [submodule "linux"]
 	path = linux
 	url = https://github.com/nyxianglyph/android_kernel_xiaomi_degas.git

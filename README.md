@@ -8,8 +8,10 @@ Dimensity 8300-Ultra `mt6897`).
   patches), configured as `gki_defconfig halium.config sfos-degas.config`.
   It keeps the stock module ABI, so the stock `vendor_boot` and `vendor_dlkm`
   modules are used unchanged.
-- `kernel-adaptation-simplified/`: packaging scripts, with support for a
-  boot.img cmdline without a vendor_boot build and for AVB footer props.
+- `kernel-adaptation-simplified/`: packaging scripts from
+  [sailfishos-open](https://github.com/sailfishos-open/kernel-adaptation-simplified),
+  branch `degas` of [this fork](https://github.com/nyxianglyph/kernel-adaptation-simplified):
+  adds a boot.img cmdline without a vendor_boot build and AVB footer props.
 - `ramdisk-overlay/`: appended to the Halium boot ramdisk (`init_boot`).
 
 The package builds `boot.img` (kernel and cmdline) and `init_boot.img`
